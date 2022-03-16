@@ -1,0 +1,25 @@
+.active {
+  background-color: green;
+  border: 5px solid black;
+  color: white;
+}
+
+.box-ct {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+  }
+  
+  .box {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  .box:hover {
+    /*pointer-events: none;*/
+    background-color: yellow;
+    cursor: crosshair;
+  }
+  
+  .box > div > p {
+    text-align: center;
+  }
